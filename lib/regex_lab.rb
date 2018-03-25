@@ -1,3 +1,4 @@
+require 'pry'
 def starts_with_a_vowel?(word)
   return word.match(/\b[aeiou]\S*\b/i) ? true : false
 end
